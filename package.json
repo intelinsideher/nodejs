@@ -1,14 +1,31 @@
 {
-  "name": "nodejs-app",
-  "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
+  "name": "brindanator-bot",
+  "version": "2.0.0",
+  "description": "Advanced Discord bot with AI and remote code execution capabilities",
   "main": "app.js",
-  "author": "alphasec",
+  "author": "intelinsideher",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "discord.js": "^14.14.1",
+    "@google/generative-ai": "^0.2.1",
+    "rce.js": "^1.0.3"
   },
   "scripts": {
-    "start": "node app.js"
-  }
+    "start": "node app.js",
+    "dev": "node app.js",
+    "bot": "node app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "ai",
+    "gemini",
+    "rce",
+    "automation",
+    "nodejs",
+    "railway"
+  ]
 }
