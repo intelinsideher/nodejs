@@ -1,14 +1,22 @@
 {
-  "name": "nodejs-app",
+  "name": "brindanator-bot",
   "version": "1.0.0",
-  "description": "A minimal Node.js web application.",
+  "description": "Brindanator - AI-powered Rust Console Edition bot with RCE.js and Gemini AI integration",
   "main": "app.js",
-  "author": "alphasec",
+  "author": "intelinsideher",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "@google/generative-ai": "^0.15.0",
+    "ws": "^8.14.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "node app.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
